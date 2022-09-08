@@ -13,7 +13,7 @@ public class Lab1B {
     private static JSpinner spinner2;
     private static Thread th1;
     private static Thread th2;
-    private static final AtomicInteger semaphore;
+    private static volatile AtomicInteger semaphore;
 
 
     static {
