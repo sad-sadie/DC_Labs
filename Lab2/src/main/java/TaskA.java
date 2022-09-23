@@ -18,8 +18,6 @@ public class TaskA {
     private static Runnable getRunnable() {
        return () -> {
            while (!Thread.interrupted()) {
-               //int x = getNextRowFromBackPack();
-               //System.out.println(Thread.currentThread().getName() + " is now operating with number " + x);
                iterateThroughFieldRow(getNextRowFromBackPack());
            }
        };

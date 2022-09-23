@@ -46,7 +46,6 @@ public class TaskB {
                while (ivanov.isAlive() || !buffer1.isEmpty()) {
                     try {
                          buffer2.put(buffer1.take());
-                         //System.out.println(buffer2);
                     } catch (InterruptedException e) {
                          throw new RuntimeException(e);
                     }
