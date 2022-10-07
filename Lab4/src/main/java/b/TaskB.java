@@ -9,9 +9,9 @@ public class TaskB {
     private static final String FILE_NAME = "garden.txt";
     private final boolean[][] garden = new boolean[10][10];
 
-    ReadWriteLock rwLock = new ReentrantReadWriteLock();
-    Lock readLock = rwLock.readLock();
-    Lock writeLock = rwLock.writeLock();
+    private final ReadWriteLock rwLock = new ReentrantReadWriteLock();
+    private final Lock readLock = rwLock.readLock();
+    private final Lock writeLock = rwLock.writeLock();
 
 
     private void start (){

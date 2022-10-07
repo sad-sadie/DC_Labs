@@ -3,9 +3,8 @@ package a;
 import java.io.*;
 import java.util.InputMismatchException;
 import java.util.Scanner;
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReadWriteLock;
-import java.util.concurrent.locks.ReentrantReadWriteLock;
+import java.util.concurrent.atomic.AtomicBoolean;
+
 
 public class TaskA {
 
@@ -13,9 +12,9 @@ public class TaskA {
     public static final String PHONE_NUMBER_REGEX = "^\\+?\\d{10,12}$";
     public static final String NAME_REGEX = "[a-zA-Z]+";
 
-    public static final ReadWriteLock RW_LOCK = new ReentrantReadWriteLock();
-    public static final Lock readLock = RW_LOCK.readLock();
-    public static final Lock writeLock = RW_LOCK.writeLock();
+
+    private final AtomicBoolean lockForRead = new AtomicBoolean(false);
+    private final AtomicBoolean lockForWrite = new AtomicBoolean(false);
 
     private void run() {
         boolean isReader = getRole();
@@ -68,7 +67,7 @@ public class TaskA {
 
     private void findByName(String name) {
 
-        readLock.lock();
+        readLock();
 
         try(BufferedReader br = new BufferedReader(new FileReader(FILE_NAME))) {
             String line = br.readLine();
@@ -91,13 +90,13 @@ public class TaskA {
         } catch (IOException e) {
             throw new RuntimeException(e);
         } finally {
-            readLock.unlock();
+            readUnlock();
         }
     }
 
     private void findByPhoneNumber(String phoneNumber) {
 
-        readLock.lock();
+        readLock();
 
         try(BufferedReader br = new BufferedReader(new FileReader(FILE_NAME))) {
             String line = br.readLine();
@@ -120,7 +119,7 @@ public class TaskA {
         } catch (IOException e) {
             throw new RuntimeException(e);
         } finally {
-            readLock.unlock();
+            readUnlock();
         }
 
     }
@@ -128,21 +127,22 @@ public class TaskA {
 
     private void addNewRecord(String record) {
 
-        writeLock.lock();
+        writeLock();
 
         try(Writer output = new BufferedWriter(new FileWriter(FILE_NAME, true))) {
+            output.append(System.lineSeparator());
             output.append(record);
         } catch (IOException e) {
             throw new RuntimeException(e);
         } finally {
-            writeLock.unlock();
+            writeUnlock();
         }
     }
 
 
     private void deleteByName(String name) {
 
-        writeLock.lock();
+        writeLock();
 
         StringBuilder sb = new StringBuilder();
         try(BufferedReader br = new BufferedReader(new FileReader(FILE_NAME))) {
@@ -166,7 +166,7 @@ public class TaskA {
         } catch (IOException e) {
             throw new RuntimeException(e);
         } finally {
-            writeLock.unlock();
+            writeUnlock();
         }
 
     }
@@ -218,6 +218,27 @@ public class TaskA {
             }
         }
     }
+
+    private void readLock() {
+        while(lockForWrite.get()) {
+        }
+        lockForRead.set(true);
+    }
+
+    private void readUnlock() {
+        lockForRead.set(false);
+    }
+
+    private void writeLock() {
+        while (lockForRead.get()) {
+        }
+        lockForWrite.set(true);
+    }
+
+    private void writeUnlock() {
+        lockForWrite.set(false);
+    }
+
 
 
     public static void main(String[] args) {
