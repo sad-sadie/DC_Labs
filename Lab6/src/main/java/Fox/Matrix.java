@@ -79,5 +79,15 @@ public final class Matrix {
             packedValues[i] = (int) (Math.random() * 10);
         }
     }
+    public void show() {
+        System.out.println("======================================================================================");
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size; j++) {
+                System.out.print(packedValues[i * size + j] + " ");
+            }
+            System.out.println();
+        }
+        System.out.println("======================================================================================");
+    }
 
 }

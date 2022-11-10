@@ -1,7 +1,7 @@
 package Cannon;
 
-import mpi.*;
-
+import mpi.MPI;
+import mpi.Status;
 
 import static java.lang.Math.sqrt;
 
