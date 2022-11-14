@@ -10,7 +10,8 @@ import java.util.List;
 
 public class DBManager {
 
-    private static final String URL = "jdbc:postgresql://localhost:5432/students-groups?user=postgres&password=123456";
+    private static final String URL
+            = "jdbc:postgresql://localhost:5432/students-groups?user=postgres&password=123456";
 
     public static Connection connection;
     private static DBManager instance;
@@ -175,6 +176,65 @@ public class DBManager {
             throw new RuntimeException(e);
         }
     }
-    
+
+    public static void main(String[] args) {
+        DBManager dbManager = DBManager.getInstance();
+/*
+            Group group1 = Group.builder()
+                .name("group-1")
+                .course(2)
+                .build();
+        Group group2 = Group.builder()
+                .name("group-2")
+                .course(5)
+                .build();
+
+        dbManager.createGroup(group1);
+        dbManager.createGroup(group2);*/
+
+        //System.out.println(dbManager.getAllGroups());
+        //System.out.println(dbManager.getStudentsByGroupId(3));
+
+        //dbManager.deleteStudent(dbManager.getStudentById(4));
+
+       /* Student student1 = Student.builder()
+                .firstName("Vova")
+                .lastName("Kirilov")
+                .groupId(3)
+                .build();
+
+        Student student2 = Student.builder()
+                .firstName("Kyryl")
+                .lastName("Shupshup")
+                .groupId(3)
+                .build();
+
+        Student student3 = Student.builder()
+                .firstName("Illia")
+                .lastName("Kuzkuz")
+                .groupId(2)
+                .build();
+
+
+
+        dbManager.createStudent(student1);
+        dbManager.createStudent(student2);
+        dbManager.createStudent(student3);*/
+
+        /*Group group = dbManager.getGroupById(1);
+        dbManager.deleteGroup(group);*/
+
+        /* Group group = dbManager.getGroupById(2);
+         group.setName("newName");
+         group.setCourse(3);
+        dbManager.updateGroup(group);*/
+
+        /* Student student = dbManager.getStudentById(3);
+         student.setFirstName("vova");
+        dbManager.updateStudent(student);*/
+
+
+
+    }
 
 }

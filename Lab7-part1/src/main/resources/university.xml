@@ -1,0 +1,13 @@
+<university xmlns="http://www.nure.ua"
+            xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:schemaLocation="http://www.nure.ua university.xsd ">
+    <group course="1" id="1" name="group-1">
+        <student id="1" firstName="Vova" lastName="Kirilov"/>
+        <student id="2" firstName="Illia" lastName="Kuzkuz"/>
+        <student id="4" firstName="Kyryl" lastName="Shcupshchup"/>
+        <student id="5" firstName="Kyryl" lastName="Shcupshchup"/>
+    </group>
+    <group course="2" id="2" name="group-2">
+        <student id="3" firstName="student" lastName="stud"/>
+    </group>
+</university>
