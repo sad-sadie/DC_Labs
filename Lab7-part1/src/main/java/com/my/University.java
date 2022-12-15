@@ -15,7 +15,6 @@ public class University {
     private final List<Group> groups = new ArrayList<>();
     private final List<Student> students = new ArrayList<>();
 
-
     private University() {
     }
 

@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8884b9bf-8697-40cd-a057-537d18b28cc8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Lab7-part2/Lab7-part2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab7-part2/src/main/java/com/my/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/DBManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/entity/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/my/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part2/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part2/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part2/.idea/dataSources/8c4992cf-ee3d-4720-93a1-c5c206c790fa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part2/.idea/dataSources/8c4992cf-ee3d-4720-93a1-c5c206c790fa/storage_v2/_src_/database/students-groups.qYP_Sg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part2/.idea/dataSources/8c4992cf-ee3d-4720-93a1-c5c206c790fa/storage_v2/_src_/database/students-groups.qYP_Sg/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part2/.idea/dataSources/8c4992cf-ee3d-4720-93a1-c5c206c790fa/storage_v2/_src_/database/students-groups.qYP_Sg/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part2/.idea/dataSources/8c4992cf-ee3d-4720-93a1-c5c206c790fa/storage_v2/_src_/database/students-groups.qYP_Sg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part2/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part2/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part2/src/main/java/com/my/DBManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part2/src/main/java/com/my/clients/FirstClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part2/src/main/java/com/my/clients/SecondClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part2/src/main/java/com/my/entity/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part2/src/main/java/com/my/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part2/src/main/java/com/my/rmi/RemoteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part2/src/main/java/com/my/rmi/RemoteControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part2/src/main/java/com/my/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part3/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part3/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part3/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part3/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part3/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part3/sql/db-create.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part3/src/main/java/my/com/client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part3/src/main/java/my/com/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part3/src/main/java/my/com/server/db/DBManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part3/src/main/java/my/com/server/db/entity/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part3/src/main/java/my/com/server/db/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part3/src/main/java/my/com/utility/SerializationUtility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part3/target/classes/my/com/client/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part3/target/classes/my/com/server/Server.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part3/target/classes/my/com/server/db/DBManager.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part3/target/classes/my/com/server/db/entity/Group$GroupBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part3/target/classes/my/com/server/db/entity/Group.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part3/target/classes/my/com/server/db/entity/Student$StudentBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part3/target/classes/my/com/server/db/entity/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab8-part3/target/classes/my/com/utility/SerializationUtility.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/com/my/commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/com/my/commands/CommandContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/com/my/commands/implementations/CreateGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/com/my/commands/implementations/CreateStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/com/my/commands/implementations/DeleteGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/com/my/commands/implementations/DeleteStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/com/my/commands/implementations/EditGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/com/my/commands/implementations/EditStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/com/my/commands/implementations/GetEditedGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/com/my/commands/implementations/GetEditedStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/com/my/commands/implementations/GetGroups.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/com/my/commands/implementations/GetStudentForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/com/my/commands/implementations/GetStudents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/com/my/commands/implementations/Specific.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/com/my/db/ConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/com/my/db/DaoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/com/my/db/GenericDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/com/my/db/implementations/DaoFactoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/com/my/db/implementations/GroupDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/com/my/db/implementations/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/com/my/entity/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/com/my/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/com/my/mapper/GroupMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/com/my/mapper/Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/com/my/mapper/StudentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/java/com/my/servlet/MainServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/webapp/create_group.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/webapp/create_student.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/webapp/css/create.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/webapp/css/read.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/webapp/edit_group.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/webapp/edit_student.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/webapp/groups.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/webapp/layout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/webapp/specific.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/webapp/specific_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/src/main/webapp/students.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/classes/com/my/commands/Command.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/classes/com/my/commands/CommandContainer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/classes/com/my/commands/implementations/CreateGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/classes/com/my/commands/implementations/CreateStudent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/classes/com/my/commands/implementations/DeleteGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/classes/com/my/commands/implementations/DeleteStudent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/classes/com/my/commands/implementations/EditGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/classes/com/my/commands/implementations/EditStudent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/classes/com/my/commands/implementations/GetEditedGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/classes/com/my/commands/implementations/GetEditedStudent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/classes/com/my/commands/implementations/GetGroups.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/classes/com/my/commands/implementations/GetStudentForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/classes/com/my/commands/implementations/GetStudents.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/classes/com/my/commands/implementations/Specific.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/classes/com/my/db/ConnectionPool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/classes/com/my/db/DaoFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/classes/com/my/db/GenericDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/classes/com/my/db/implementations/DaoFactoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/classes/com/my/db/implementations/GroupDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/classes/com/my/db/implementations/StudentDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/classes/com/my/entity/Group$GroupBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/classes/com/my/entity/Group.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/classes/com/my/entity/Student$StudentBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/classes/com/my/entity/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/classes/com/my/mapper/GroupMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/classes/com/my/mapper/Mapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/classes/com/my/mapper/StudentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/classes/com/my/servlet/MainServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/command/Command.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/commands/Command.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/commands/CommandContainer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/commands/implementations/CreateGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/commands/implementations/CreateStudent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/commands/implementations/DeleteGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/commands/implementations/DeleteStudent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/commands/implementations/EditGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/commands/implementations/EditStudent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/commands/implementations/GetEditedGroup.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/commands/implementations/GetEditedStudent.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/commands/implementations/GetGroups.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/commands/implementations/GetStudentForm.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/commands/implementations/GetStudents.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/commands/implementations/Specific.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/controller/commands/CommandContainer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/db/ConnectionPool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/db/DaoFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/db/GenericDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/db/implementations/DaoFactoryImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/db/implementations/GroupDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/db/implementations/StudentDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/entity/Group$GroupBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/entity/Group.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/entity/Student$StudentBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/entity/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/mapper/GroupMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/mapper/Mapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/mapper/StudentMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/classes/com/my/servlet/MainServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/lib/checker-qual-3.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/lib/commons-dbcp-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/lib/commons-pool-1.5.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/lib/lombok-1.18.24.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/lib/postgresql-42.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/create_group.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/create_student.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/css/create.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/css/read.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/edit_group.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/edit_student.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/groups.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/layout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/specific.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/specific_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lab9/target/untitled/students.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7-part1/src/main/java/com/my/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7-part1/src/main/java/com/my/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7-part1/src/main/java/com/my/University.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7-part1/src/main/java/com/my/University.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7-part1/src/main/java/com/my/entities/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7-part1/src/main/java/com/my/entities/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7-part1/src/main/java/com/my/parsers/DomParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7-part1/src/main/java/com/my/parsers/DomParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7-part2/src/main/db_script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7-part2/src/main/db_script.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lab7-part2/src/main/java/com/my/DBManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lab7-part2/src/main/java/com/my/DBManager.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Hga9sNiaAvpB6Z45qT7PCtnwd9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/KNU/RO/DC_Labs/Lab8-part3",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.my.Client" />
+      <module name="Lab8-part1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.my.Server" />
+      <module name="Lab8-part1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="console.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$APPLICATION_CONFIG_DIR$/consoles/db/7a01df8c-cb47-4df0-8030-d11f79ec38f2/console.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="Database Script.console.sql" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8884b9bf-8697-40cd-a057-537d18b28cc8" name="Changes" comment="" />
+      <created>1668709032671</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668709032671</updated>
+      <workItem from="1668709034771" duration="7545000" />
+      <workItem from="1668887280700" duration="1133000" />
+      <workItem from="1668902227689" duration="621000" />
+      <workItem from="1668912045615" duration="14000" />
+      <workItem from="1671133665494" duration="1956000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

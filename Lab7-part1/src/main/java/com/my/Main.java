@@ -61,7 +61,7 @@ public class Main {
         university.updateGroup(group);
         university.printAllGroupsAndStudents();
 
-        System.out.println(university.getStudents());
+        System.out.println(university.getGroups());
         System.out.println(university.getStudentsByGroupId(group.getId()));
         System.out.println("≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈");
 

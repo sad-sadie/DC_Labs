@@ -13,8 +13,8 @@ public class DBManager {
     private static final String URL
             = "jdbc:postgresql://localhost:5432/students-groups?user=postgres&password=123456";
 
-    public static Connection connection;
     private static DBManager instance;
+    public static Connection connection;
 
     private DBManager() {
         try {
@@ -120,6 +120,24 @@ public class DBManager {
         return null;
     }
 
+    public Group getGroupByName(String name) {
+        try{
+            PreparedStatement preparedStatement = connection.prepareStatement("SELECT * FROM groups WHERE name = ?");
+            preparedStatement.setString(1, name);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if (resultSet.next()){
+                return Group.builder()
+                        .id(resultSet.getInt("id"))
+                        .name(resultSet.getString("name"))
+                        .course(resultSet.getInt("course"))
+                        .build();
+            }
+        } catch (SQLException e){
+            throw new RuntimeException(e);
+        }
+        return null;
+    }
+
     public Student getStudentById(int id) {
         try {
             PreparedStatement preparedStatement = connection.prepareStatement("SELECT * FROM students WHERE id = ?");
@@ -135,6 +153,25 @@ public class DBManager {
             }
         } catch (SQLException e){
            throw new RuntimeException(e);
+        }
+        return null;
+    }
+
+    public Student getStudentByLastName(String lastName) {
+        try {
+            PreparedStatement preparedStatement = connection.prepareStatement("SELECT * FROM students WHERE last_name = ?");
+            preparedStatement.setString(1, lastName);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            if (resultSet.next()){
+                return Student.builder()
+                        .id(resultSet.getInt("id"))
+                        .firstName(resultSet.getString("first_name"))
+                        .lastName(resultSet.getString("last_name"))
+                        .groupId(resultSet.getInt("group_id"))
+                        .build();
+            }
+        } catch (SQLException e){
+            throw new RuntimeException(e);
         }
         return null;
     }
@@ -177,64 +214,14 @@ public class DBManager {
         }
     }
 
-    public static void main(String[] args) {
+    public void printAllGroupsAndStudents() {
         DBManager dbManager = DBManager.getInstance();
-/*
-            Group group1 = Group.builder()
-                .name("group-1")
-                .course(2)
-                .build();
-        Group group2 = Group.builder()
-                .name("group-2")
-                .course(5)
-                .build();
-
-        dbManager.createGroup(group1);
-        dbManager.createGroup(group2);*/
-
-        //System.out.println(dbManager.getAllGroups());
-        //System.out.println(dbManager.getStudentsByGroupId(3));
-
-        //dbManager.deleteStudent(dbManager.getStudentById(4));
-
-       /* Student student1 = Student.builder()
-                .firstName("Vova")
-                .lastName("Kirilov")
-                .groupId(3)
-                .build();
-
-        Student student2 = Student.builder()
-                .firstName("Kyryl")
-                .lastName("Shupshup")
-                .groupId(3)
-                .build();
-
-        Student student3 = Student.builder()
-                .firstName("Illia")
-                .lastName("Kuzkuz")
-                .groupId(2)
-                .build();
-
-
-
-        dbManager.createStudent(student1);
-        dbManager.createStudent(student2);
-        dbManager.createStudent(student3);*/
-
-        /*Group group = dbManager.getGroupById(1);
-        dbManager.deleteGroup(group);*/
-
-        /* Group group = dbManager.getGroupById(2);
-         group.setName("newName");
-         group.setCourse(3);
-        dbManager.updateGroup(group);*/
-
-        /* Student student = dbManager.getStudentById(3);
-         student.setFirstName("vova");
-        dbManager.updateStudent(student);*/
-
-
-
+        List<Group> groups = dbManager.getAllGroups();
+        groups.forEach(group -> {
+            System.out.println(group);
+            dbManager.getStudentsByGroupId(group.getId()).forEach(System.out::println);
+                }
+        );
+        System.out.println("≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈");
     }
-
 }

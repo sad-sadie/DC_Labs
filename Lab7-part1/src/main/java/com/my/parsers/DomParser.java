@@ -4,7 +4,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 import java.util.stream.IntStream;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -56,15 +55,19 @@ public class DomParser {
         University university = University.getInstance();
         NodeList nodes = doc.getElementsByTagName("group");
 
-        IntStream.range(0, nodes.getLength()).mapToObj(i -> (Element) nodes.item(i)).forEach(groupNode -> {
-            Group group = Group.builder()
+        IntStream.range(0, nodes.getLength()).
+                mapToObj(i -> (Element) nodes.item(i))
+                .forEach(groupNode -> {
+                    Group group = Group.builder()
                     .id(groupNode.getAttribute("id"))
                     .name(groupNode.getAttribute("name"))
                     .course(Integer.parseInt(groupNode.getAttribute("course")))
                     .students(new ArrayList<>())
                     .build();
             university.createGroup(group);
-            IntStream.range(0, groupNode.getElementsByTagName("student").getLength()).mapToObj(j -> (Element) groupNode.getElementsByTagName("student").item(j)).map(studentNode -> Student.builder()
+            IntStream.range(0, groupNode.getElementsByTagName("student").getLength())
+                    .mapToObj(j -> (Element) groupNode.getElementsByTagName("student").item(j))
+                    .map(studentNode -> Student.builder()
                     .id(studentNode.getAttribute("id"))
                     .groupId(groupNode.getAttribute("id"))
                     .firstName(studentNode.getAttribute("firstName"))

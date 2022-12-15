@@ -1,4 +1,4 @@
-DROP TABLE groups CASCADE;
+/*DROP TABLE groups CASCADE;
 DROP TABLE students CASCADE;
 
 CREATE TABLE groups (
@@ -14,3 +14,8 @@ CREATE TABLE students (
                           group_id INTEGER REFERENCES groups ON DELETE CASCADE
 );
 
+*/
+
+DELETE
+FROM groups
+WHERE id =7;
